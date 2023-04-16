@@ -1,0 +1,12 @@
+{
+    "/js/admin.js": "/js/admin.js",
+    "/css/admin.css": "/css/admin.css",
+    "/css/style.css": "/css/style.css",
+    "/js/coreui-utils.js": "/js/coreui-utils.js",
+    "/js/coreui.bundle.min.js": "/js/coreui.bundle.min.js",
+    "/js/coreui.bundle.min.js.map": "/js/coreui.bundle.min.js.map",
+    "/css/all.min.css": "/css/all.min.css",
+    "/css/all.min.css.map": "/css/all.min.css.map",
+    "/js/custom-admin.js": "/js/custom-admin.js",
+    "/js/upload-image.js": "/js/upload-image.js"
+}

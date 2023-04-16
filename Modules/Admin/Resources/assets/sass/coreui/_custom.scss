@@ -1,0 +1,61 @@
+// Here you can add other styles
+
+.c-header.c-header-fixed{
+    top:0px;
+}
+
+.click-file{
+    cursor:pointer;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.text-decoration-underline {
+    text-decoration: underline;
+}
+
+.btn-submit-color-default, .btn-color-default {
+    color: #ffffff;
+    background-color: #64b5f7;
+
+    &.btn-submit {
+        //@extend &;
+    }
+
+    &:focus {
+        box-shadow: 0 0 0 0.2rem rgb(9 117 224 / 20%);
+    }
+}
+
+.btn-cancel-default {
+    background-color: #ccc;
+}
+
+.error-block {
+    color: #ff0000 !important;
+    font-size: 12px;
+    bottom: 0;
+}
+
+.errors {
+    border-color: #ff0000;
+}
+
+img {
+    max-width: 100%;
+}
+
+.th-vertical-align-middle > tbody > tr > th {
+    vertical-align: middle;
+}
+
+.color-warning {
+    color: orange;
+}
+
+.box {
+    background-color: #ffffff;
+    padding: 1rem;
+}

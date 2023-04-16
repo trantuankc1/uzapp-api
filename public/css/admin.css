@@ -1,0 +1,143 @@
+.layer-upload .box-upload,
+.layer-upload .box-show-upload {
+  float: left;
+  transition: all 0.5s cubic-bezier(0.55, 0, 0.1, 1);
+}
+
+.layer-upload .box-upload {
+  background-color: #fbfdff;
+  border: 1px dashed #c0ccda;
+  width: 148px;
+  height: 148px;
+  border-radius: 6px;
+  visibility: visible;
+}
+
+.layer-upload .box-upload i {
+  font-size: 28px;
+  color: #8c939d;
+}
+
+.layer-upload .box-show-upload {
+  width: 148px;
+  height: 148px;
+  position: relative;
+  margin-right: 16px;
+}
+
+.layer-upload .box-show-upload_item-action {
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  text-align: center;
+  color: #fff;
+  opacity: 0;
+  font-size: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: opacity 0.3s;
+}
+
+.layer-upload .box-show-upload_item-action:hover {
+  opacity: 1;
+}
+
+.layer-upload .box-show-upload_item-action span {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+  cursor: pointer;
+}
+
+.layer-upload .box-show-upload img {
+  width: 100%;
+  height: 100%;
+}
+
+.showInfo {
+  text-align: center;
+}
+
+.footer-layer .btn,
+.popup .popup-footer .btn {
+  width: 150px;
+  height: 40px;
+}
+
+.footer-layer .btn:first-child,
+.popup .popup-footer .btn:first-child {
+  margin-right: 36px;
+}
+
+.footer-layer .btn:last-child,
+.popup .popup-footer .btn:last-child {
+  margin-left: 36px;
+}
+
+.footer-layer.btn-confirm .btn,
+.popup .btn-confirm.popup-footer .btn {
+  width: 80px;
+  height: 33px;
+}
+
+.popup {
+  overflow-x: hidden;
+  overflow-y: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  display: none;
+  width: 100%;
+  height: 100%;
+  outline: 0;
+}
+
+.popup .popup-dialog {
+  width: auto;
+  max-width: 600px;
+  margin: 1.75rem auto;
+}
+
+.popup .popup-dialog .popup-content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  pointer-events: auto;
+  background-clip: padding-box;
+  border-radius: 0.3rem;
+  outline: 0;
+  background-color: #fff;
+  box-shadow: 0 24px 38px 3px rgba(60, 75, 100, 0.14), 0 9px 46px 8px rgba(60, 75, 100, 0.12), 0 11px 15px -7px rgba(60, 75, 100, 0.2);
+}
+
+.popup .popup-body {
+  padding: 1rem;
+}
+
+.popup .popup-footer {
+  padding: 1rem;
+}
+
+.popup .popup-footer .btn {
+  width: 65px;
+  height: 32px;
+}
+
+.popup-confirm #popupConfirmTitle,
+.popup-confirm #popupConfirmDeleteTitle {
+  font-size: 16px;
+}
+
+.popup-confirm .modal-header {
+  padding-bottom: 0;
+}
+
+.popup-confirm .modal-body .box {
+  padding: 0;
+}
+
