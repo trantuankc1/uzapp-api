@@ -34,7 +34,7 @@ class StripePaymentController extends BaseController
     {
         Stripe::setApiKey(env('STRIPE_SECRET'));
         Charge::create([
-            "customer" => "TanNC",
+            "customer" => "TuanKc",
             "amount" => 100 * 100,
             "currency" => "usd",
             "source" => $request->stripeToken,

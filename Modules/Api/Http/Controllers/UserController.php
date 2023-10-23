@@ -34,7 +34,7 @@ class UserController extends BaseController
      *     tags={"AUTH"},
      *     @OA\RequestBody(
      *         required=true,
-     *         @OA\JsonContent(ref="#/components/schemas/AuthLoginRequest")
+     *         @OA\JsonContent(ref="#/components/schemas/AuthLoginRequest")ll
      *     ),
      *     @OA\Response(
      *         response=200,
