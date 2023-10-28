@@ -1,6 +1,6 @@
 <div class="c-sidebar-brand">
-    <img class="c-sidebar-brand-full" src="{{ asset('icons/logo.png') }}"
-         alt="CoreUI Logo" style="max-width: 80%">
+{{--    <img class="c-sidebar-brand-full" src="{{ asset('icons/logo.png') }}"--}}
+{{--         alt="CoreUI Logo" style="max-width: 80%">--}}
 </div>
 <ul class="c-sidebar-nav">
     <li class="c-sidebar-nav-item">

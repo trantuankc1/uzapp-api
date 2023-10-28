@@ -23,7 +23,7 @@ class TransactionProduct extends Model
     /**
      * @return BelongsTo
      */
-    public function product()
+    public function product(): BelongsTo
     {
         return $this->belongsTo(Product::class, 'product_id','id');
     }
@@ -31,7 +31,7 @@ class TransactionProduct extends Model
     /**
      * @return BelongsTo
      */
-    public function user()
+    public function user(): BelongsTo
     {
         return $this->belongsTo(User::class, 'open_id', 'open_id');
     }
