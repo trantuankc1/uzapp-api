@@ -2,10 +2,8 @@
 
 namespace Database\Seeders;
 
-use Illuminate\Database\Console\Seeds\WithoutModelEvents;
+use App\Models\AdminLogin;
 use Illuminate\Database\Seeder;
-use Illuminate\Support\Facades\DB;
-use Yajra\DataTables\Contracts\DataTable;
 
 class UserSeeder extends Seeder
 {
@@ -16,7 +14,7 @@ class UserSeeder extends Seeder
      */
     public function run()
     {
-        DB::table('admin_login')->insert([
+        AdminLogin::query()->insert([
            'id' => 1,
            'name' => 'admin',
            'email' => 'trantuankc1@gmail.com',

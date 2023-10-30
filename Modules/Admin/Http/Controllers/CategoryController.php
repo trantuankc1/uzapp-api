@@ -26,6 +26,7 @@ class CategoryController extends Controller
     }
 
     /**
+     * @param Request $request
      * @return View
      */
 
