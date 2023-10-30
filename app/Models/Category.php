@@ -13,11 +13,17 @@ class Category extends Model
     protected $table = 'categories';
     const CATEGORY_ENABLE = 1;
 
+    /**
+     * @var string[]
+     */
     protected $fillable = [
       'category_name',
       'note'
     ];
 
+    /**
+     * @return HasMany
+     */
     public function products(): HasMany
     {
         return $this->hasMany(Product::class, 'category_id', 'id');

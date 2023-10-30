@@ -48,6 +48,10 @@ class TransactionServiceImpl implements TransactionService
         $this->paymentService = $paymentService;
     }
 
+    /**
+     * @param string $transNo
+     * @return Model|Builder|null
+     */
     public function findByTransNo(string $transNo): Model|Builder|null
     {
         $openId = $this->auth->user()->open_id;

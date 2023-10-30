@@ -20,6 +20,10 @@ class ProductRepoImpl implements ProductRepository
         return Product::query()->find($productId);
     }
 
+    /**
+     * @param Product $product
+     * @return Product
+     */
     public function save(Product $product): Product
     {
         $product->save();
