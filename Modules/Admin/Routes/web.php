@@ -70,6 +70,8 @@ Route::prefix('admin')->group(function () {
             Route::get('/profile/{id}', [UserController::class, 'profileUser'])->name('admin::user.profile');
             Route::patch('/update', [UserController::class, 'update'])->name('admin::users.update');
             Route::get('/search', [UserController::class, 'search'])->name('admin::users.search');
+            Route::get('/search', [UserController::class, 'search'])->name('admin::users.search');
+
             Route::get('/exportCSV', [UserController::class, 'exportCSV'])->name('admin::users.exportCSV');
         });
     });
